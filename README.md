@@ -1,2 +1,2 @@
-# 8minofsun.github.io
+# sun8min.github.io
 blog

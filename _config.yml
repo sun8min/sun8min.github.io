@@ -1,1 +1,102 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Sun8min Blog
+SEOTitle: Sun8min的博客 | Sun8min Blog
+header-img: img/common/desk-bg.jpg
+email: sun8min@gmail.com
+description: "main description"
+keyword: "Sun8min, Sun8min Blog, Sun8min的博客"
+url: "https://sun8min.com"
+baseurl: ""
+github_repo: "https://github.com/sun8min/sun8min.github.io.git"
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "sidebar description"
+sidebar-avatar: /img/common/sun8min.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+zhihu_username:
+github_username:    sun8min
+facebook_username:
+jianshu_username:
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: e38caaaf364eef86fa0a                            #生成的clientID
+  clientSecret: 6a16c6ebc9654a5afab105673378d5b9dbe97841    #生成的clientSecret
+  repo: sun8min.github.io    #仓库名称
+  owner: sun8min    #github用户名
+  admin: sun8min
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 54ecd99407dddd624effef6f12e2c138
+
+# Google Analytics
+ga_track_id: 'UA-139917638-1'            # Format: UA-xxxxxx-xx
+ga_domain: sun8min.com               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "sun8min",
+        href: "https://sun8min.com"
+    }
+]

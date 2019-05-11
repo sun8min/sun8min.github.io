@@ -8,7 +8,6 @@ header-img:
 catalog: true
 tags:
     - Web Security
-    - Web安全
     - CSRF
     - DDOS
     - SQL注入

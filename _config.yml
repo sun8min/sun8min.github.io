@@ -5,7 +5,7 @@ header-img: img/common/desk-bg.jpg
 email: sun8min@gmail.com
 description: "main description"
 keyword: "Sun8min, Sun8min Blog, Sun8min的博客"
-url: ""
+url: "https://sun8min.github.io"
 baseurl: ""
 github_repo: "https://github.com/sun8min/sun8min.github.io.git"
 
@@ -97,6 +97,6 @@ service-worker: true
 friends: [
     {
         title: "sun8min",
-        href: "https://sun8min.com"
+        href: "https://sun8min.github.io"
     }
 ]
